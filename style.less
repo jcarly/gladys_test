@@ -1,0 +1,46 @@
+.hidden{
+	display: none;
+}
+.dd-item{
+	position: relative;
+	button{
+		display: none;
+	}
+	.btn-floating{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		position: absolute;
+	    right: 30px;
+	    top: 5px;
+		i{
+			line-height: 20px;
+			font-size: 1rem;
+		}
+		&.remove-category{
+			right: 5px;
+		}
+	}
+	input{
+		height: 1rem;
+		width: auto;
+		position: absolute;
+	    top: 8px;
+	    left: 10px;
+	}
+}
+
+.fiche-resume{
+	position: relative;
+	.btn-floating{
+		position: absolute; 
+		top: 20px;
+		right: 20px;
+		&.edit-fiche{
+			right: 65px;
+		}
+		&.show-fiche{
+			right: 110px;
+		}
+	}
+}

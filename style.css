@@ -1,0 +1,45 @@
+.hidden {
+  display: none;
+}
+.dd-item {
+  position: relative;
+}
+.dd-item button {
+  display: none;
+}
+.dd-item .btn-floating {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.dd-item .btn-floating i {
+  line-height: 20px;
+  font-size: 1rem;
+}
+.dd-item .btn-floating.remove-category {
+  right: 5px;
+}
+.dd-item input {
+  height: 1rem;
+  width: auto;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.fiche-resume {
+  position: relative;
+}
+.fiche-resume .btn-floating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.fiche-resume .btn-floating.edit-fiche {
+  right: 65px;
+}
+.fiche-resume .btn-floating.show-fiche {
+  right: 110px;
+}
